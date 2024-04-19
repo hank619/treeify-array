@@ -13,7 +13,8 @@ test('normal result', () => {
     { name: 'David', grade: 'grade-2', class: 'class-4' },
   ];
   const propertyNames = ['grade', 'class'];
-  const result = {
+  const result = 
+  {
     'grade-1': {
       'class-1': [
         {
