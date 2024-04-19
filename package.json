@@ -19,7 +19,7 @@
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
-  "peerDependencies": {},
+  "repository": "https://github.com/hank619/treeify-array",
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -46,10 +46,14 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^11.1.2",
+    "@types/invariant": "^2.2.37",
     "husky": "^9.0.11",
     "size-limit": "^11.1.2",
     "tsdx": "^0.14.1",
     "tslib": "^2.6.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "invariant": "^2.2.4"
   }
 }
